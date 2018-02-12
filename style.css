@@ -1,102 +1,18 @@
-.site-header {
-	background: #3f51b5;
-	color: #fff;
-	padding: 20px 5%;
-	padding-top: 10px;
-	box-shadow: 0 1px 3px #333;
-	
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", sans-serif;
 }
 
-.site-header h1 {
-	margin: 0;
-	font-size: 30px;
-	float: left;
-	
-	
+.w3-bar, h1, button {
+	font-family: "Lato", sans-serif;
 }
 
-.main-nav {
-	float: right;
-
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
 }
 
-.main-nav ul {
-
-	list-style: none;
-}
-
-.main-nav ul li {
-	display: inline;
-	
-}
-
-.main-nav ul li a {
-	text-decoration: none;
-	color: white;
-	
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.billboard {
-	background: #ccc;
-	text-align: center;
-}
-
-.billboard h2 {
-	margin-top: 0;
-	padding: 40px;
-}
-
-.main-col {
-	float: left;
-	width: 70%;
-}
-
-.sidebar-col {
-	float: right;
-	width: 20%;
-	color: #FFF;
-	background: #333;
-	padding: 20px 5%;
-	padding-top: 5px;
-}
-
-.column-wrapper {
-	width: 90%;
-	margin: 0 auto;
-	
-}
-
-.main-footer {
-	background: #333;
-	color: white;
-	padding: 40px 5%;
-}
-
-.main-footer a {
-	color: #FFF;
-	font-size: 12px;
-}
-
-.copyright {
-	float: left;
-}
-
-.footer-nav {
-	list-style: none;
-	float: left;
-}
-
-.footer-nav li {
-	float:left;
-	margin: left;
-}
-
-.footer-nav li + li {
-	margin-left: 10px;
+.w3-bar .w3-button {
+    padding: 16px;
 }
